@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Puzzle Adventure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Math Puzzle Adventure</h1>
+    <div id="puzzle" class="puzzle-piece">
+      <div id="problem" class="problem">Solve: 3 + 5</div>
+    </div>
+    <input type="number" id="answer" placeholder="Your answer" class="answer-input" />
+    <button id="submit" class="submit-button">Submit</button>
+    <div id="timer" class="timer">Time: <span id="time-left">10</span>s</div>
+    <div id="score" class="score">Score: 0</div>
+    <div id="message" class="message"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
